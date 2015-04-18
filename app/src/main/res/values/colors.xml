@@ -5,6 +5,8 @@
     <item name="secondary" type="color">#6EB234</item>
     <item name="accent" type="color">#FF4C4C</item>
     <item name="white" type="color">#ffffff</item>
+    <item name="fruit" type="color">#7E20ED</item>
+
 
 
     <integer-array name="androidcolors">
@@ -12,6 +14,7 @@
         <item>@color/secondary</item>
         <item>@color/accent</item>
         <item>@color/white</item>
+        <item>@color/fruit</item>
     </integer-array>
 
 </resources>

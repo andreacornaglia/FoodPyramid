@@ -1,0 +1,236 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/llFruits">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/apple"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:weightSum="1"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_marginTop="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            >
+
+            <Button
+                android:layout_width="62dp"
+                android:layout_height="48dp"
+                android:text="-"
+                android:textSize="26sp"
+                android:layout_gravity="left"
+                android:textColor="@color/fruit"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/fruits_apple"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="0 apple"
+                    android:paddingRight="10dp"
+                    android:textSize="20sp"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/fruit"/>
+
+            </LinearLayout>
+            <Button
+                android:layout_width="62dp"
+                android:layout_height="48dp"
+                android:text="+"
+                android:textSize="26sp"
+                android:layout_gravity="right"
+                android:textColor="@color/fruit"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:id="@+id/grapes"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:weightSum="1"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            >
+
+            <Button
+                android:layout_width="62dp"
+                android:layout_height="48dp"
+                android:text="-"
+                android:textSize="26sp"
+                android:layout_gravity="left"
+                android:textColor="@color/fruit"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/fruits_grapes"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="2 grapes"
+                    android:paddingRight="10dp"
+                    android:textSize="20sp"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/fruit"/>
+
+            </LinearLayout>
+            <Button
+                android:layout_width="62dp"
+                android:layout_height="48dp"
+                android:text="+"
+                android:textSize="26sp"
+                android:layout_gravity="right"
+                android:textColor="@color/fruit"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:id="@+id/watermelon"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:weightSum="1"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            >
+
+            <Button
+                android:layout_width="62dp"
+                android:layout_height="48dp"
+                android:text="-"
+                android:textSize="26sp"
+                android:layout_gravity="left"
+                android:textColor="@color/fruit"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/fruits_watermelon"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="0 watermelon"
+                    android:paddingRight="10dp"
+                    android:textSize="20sp"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/fruit"/>
+
+            </LinearLayout>
+            <Button
+                android:layout_width="62dp"
+                android:layout_height="48dp"
+                android:text="+"
+                android:textSize="26sp"
+                android:layout_gravity="right"
+                android:textColor="@color/fruit"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:id="@+id/tomato"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:weightSum="1"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            >
+
+            <Button
+                android:layout_width="62dp"
+                android:layout_height="48dp"
+                android:text="-"
+                android:textSize="26sp"
+                android:layout_gravity="left"
+                android:textColor="@color/fruit"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/fruits_tomato"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="0 tomatoes"
+                    android:paddingRight="10dp"
+                    android:textSize="20sp"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/fruit"/>
+
+            </LinearLayout>
+            <Button
+                android:layout_width="62dp"
+                android:layout_height="48dp"
+                android:text="+"
+                android:textSize="26sp"
+                android:layout_gravity="right"
+                android:textColor="@color/fruit"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>
