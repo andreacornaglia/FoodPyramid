@@ -9,18 +9,18 @@ import android.view.View;
 import android.widget.LinearLayout;
 
 
-public class LoginActivity extends ActionBarActivity {
+public class DashboardActivity extends ActionBarActivity {
 
-    LinearLayout actionLoginButton;
+    android.support.v7.widget.CardView cardPyramid;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
-        actionLoginButton = (LinearLayout) findViewById(R.id.action_login_button);
-        actionLoginButton.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_dashboard);
+        cardPyramid = (android.support.v7.widget.CardView) findViewById(R.id.cardPyramid);
+        cardPyramid.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Intent intent = new Intent(LoginActivity.this, DashboardActivity.class);
+                Intent intent = new Intent(DashboardActivity.this, AddFoodActivity.class);
                 startActivity(intent);
             }
         });
@@ -30,7 +30,7 @@ public class LoginActivity extends ActionBarActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
+        getMenuInflater().inflate(R.menu.menu_dashboard, menu);
         return true;
     }
 
@@ -47,9 +47,5 @@ public class LoginActivity extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
-    }
-    public void onLogIn(View v) {
-        Intent i = new Intent(LoginActivity.this,LoginActivity.class);
-        startActivity(i);
     }
 }
