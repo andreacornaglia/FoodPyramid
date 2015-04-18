@@ -24,10 +24,9 @@
 
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="100dp"
+                    android:layout_height="80dp"
                     android:scaleType="centerCrop"
                     android:id="@+id/ivMenuItem"
-                    android:background="@drawable/background"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true" />
@@ -38,7 +37,6 @@
                     android:text="Fact of the Day"
                     android:id="@+id/tvFact"
                     android:textSize="22sp"
-                    android:textStyle="bold"
                     android:paddingLeft="10dp"
                     android:paddingTop="10dp"/>
             <TextView
@@ -75,10 +73,9 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:layout_height="80dp"
                 android:scaleType="centerCrop"
                 android:id="@+id/ivImagePyramid"
-                android:background="@drawable/background"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true" />
@@ -89,7 +86,6 @@
                 android:text="Today's Pyramid"
                 android:id="@+id/tvPyramid"
                 android:textSize="22sp"
-                android:textStyle="bold"
                 android:paddingLeft="10dp"
                 android:paddingTop="10dp"/>
             <TextView
@@ -126,10 +122,9 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:layout_height="80dp"
                 android:scaleType="centerCrop"
                 android:id="@+id/ivStats"
-                android:background="@drawable/background"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true" />
@@ -140,7 +135,6 @@
                 android:text="Diet Stats"
                 android:id="@+id/tvStats"
                 android:textSize="22sp"
-                android:textStyle="bold"
                 android:paddingLeft="10dp"
                 android:paddingTop="10dp"/>
             <TextView

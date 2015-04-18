@@ -1,0 +1,50 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/llVegetables">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:weightSum="1"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="10dp">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:text="-"
+                android:layout_gravity="left"
+                android:textColor="@color/primary"/>
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:src="@drawable/banana"
+                android:paddingLeft="10dp"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:text="2 bananas"
+                android:paddingRight="10dp"
+                android:textColor="@color/primary"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:text="+"
+                android:layout_gravity="right"
+                android:textColor="@color/primary"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
