@@ -13,6 +13,7 @@ import android.widget.LinearLayout;
 public class DashboardActivity extends ActionBarActivity {
 
     android.support.v7.widget.CardView cardPyramid;
+    android.support.v7.widget.CardView cardStats;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,8 +27,20 @@ public class DashboardActivity extends ActionBarActivity {
                 startActivity(intent);
             }
         });
+
+        cardStats = (android.support.v7.widget.CardView) findViewById(R.id.cardStats);
+        cardStats.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                barGraphHandler(view);
+            }
+        });
     }
 
+    public void barGraphHandler(View v){
+        BarGraph bargraph = new BarGraph();
+        Intent barintent = bargraph.getIntent(this);
+        startActivity(barintent);
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

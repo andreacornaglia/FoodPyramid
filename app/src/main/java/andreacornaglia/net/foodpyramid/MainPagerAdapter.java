@@ -13,22 +13,27 @@ public class MainPagerAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int i) {
         if (i == 1) {
             return new VegetableFragment();
-        } else {
+        } else if (i == 2){
             return new FruitFragment();
+        }
+        else {
+            return new GrainFragment();
         }
     }
 
     @Override
     public int getCount() {
-        return 2;
+        return 3;
     }
 
     @Override
     public CharSequence getPageTitle(int i) {
         if (i == 1) {
             return "Vegetables";
-        } else {
+        } else if (i == 2){
             return "Fruits";
+        } else {
+            return "Grains";
         }
     }
 }

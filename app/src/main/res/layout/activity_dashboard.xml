@@ -80,7 +80,9 @@
                 android:id="@+id/ivImagePyramid"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true" />
+                android:layout_alignParentStart="true"
+                android:src="@drawable/pyramid"
+                />
 
             <TextView
                 android:layout_width="match_parent"
@@ -129,7 +131,8 @@
                 android:id="@+id/ivStats"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true" />
+                android:layout_alignParentStart="true"
+                android:src="@drawable/grap"/>
 
             <TextView
                 android:layout_width="match_parent"
