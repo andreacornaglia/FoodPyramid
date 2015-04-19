@@ -6,6 +6,7 @@
     <item name="accent" type="color">#FF4C4C</item>
     <item name="white" type="color">#ffffff</item>
     <item name="fruit" type="color">#7E20ED</item>
+    <item name="grains" type="color">#EDC02B</item>
 
 
 
@@ -15,6 +16,7 @@
         <item>@color/accent</item>
         <item>@color/white</item>
         <item>@color/fruit</item>
+        <item>@color/grains</item>
     </integer-array>
 
 </resources>

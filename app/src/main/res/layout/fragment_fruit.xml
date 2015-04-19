@@ -28,6 +28,7 @@
                 android:layout_width="62dp"
                 android:layout_height="48dp"
                 android:text="-"
+                android:id="@+id/apple_minus"
                 android:textSize="26sp"
                 android:layout_gravity="left"
                 android:textColor="@color/fruit"/>
